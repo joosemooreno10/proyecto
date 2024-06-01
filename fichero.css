@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+    font-family: Arial Narrow;
+    background-color: #FFFFFF; 
+    margin: 0px 40px;
+}
+
+nav {
+    
+    height: 55px;
+    background-color: #444; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #0055A5; 
+    padding-top: 9px;
+    border: 2px solid #003E7E; 
+    text-align: center;
+}
+
+a.titulo {
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    font-family: Tahoma;
+}
+
+a.una {
+    text-decoration: none;
+    color: white; 
+    border: 2px solid #FF6600; 
+    display: inline-block;
+    padding: 17px 150px;
+    margin: 0 10px;
+}
+
+a.una:hover {
+    background-color: #FF6600; 
+    color: white; 
+}
+
+
+main {
+    
+    background: #ADD8E6; 
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+section {
+    width: 100%;
+    background: #F7F7F7; 
+	padding:0px 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+img {
+    width:40%; 
+    margin: 0px 100px; 
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    color: #0044AA; 
+    margin-bottom: 15px; 
+    padding-bottom: 5px; 
+    letter-spacing: 1px; 
+}
+
+h3 {
+    font-family:Comic Sans MS; 
+    color: #0066CC; 
+    font-size: 22px;
+    margin-bottom: 10px; 
+	padding-bottom: 5px; 
+}
+
+p {
+    font-family: Times New Roman;
+    margin-bottom: 15px; 
+    color: #111; 
+    font-weight: bold; 
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    clear: both;
+    
+}
+
+.botones {
+    margin-bottom: 15px;
+}
+
+.boton {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton.x {
+    background-color: #1DA1F2; 
+}
+
+.boton.x:hover {
+    background-color: #0d8de1; 
+}
+
+.boton.youtube {
+    background-color: #FF0000; 
+}
+
+.boton.youtube:hover {
+    background-color: #cc0000; 
+}
+
+.boton.facebook {
+    background-color: #3b5998; 
+}
+
+.boton.facebook:hover {
+    background-color: #2d4373; 
+}
+
+
+.dropdown {
+            position: relative;
+            display: inline-block;
+ }
+
+.dropdown-content {
+          display: none;
+           position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FF6600; 
+			color: white; 
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #FF6600; 
+			color: white; 
+        }
